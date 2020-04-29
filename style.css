@@ -1,0 +1,15 @@
+html { 
+    background: url("weather.jpg") no-repeat center center fixed; 
+    background-size: cover;
+  }
+
+  div {
+    border-style: outset;
+    width: 40%;
+    margin: 150px auto;
+    padding: 25px;
+    background-size: cover;
+    text-align: center;
+    font-size:25px;
+
+  } 
