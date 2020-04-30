@@ -13,7 +13,6 @@ if (navigator.geolocation) {
     weatherCall( lat,lng );
   }
 
-
     
    function weatherCall( lat,lng ) {
     
