@@ -1,6 +1,8 @@
-window.addEventListener('load', (event) => {
+window.addEventListener('load', (geolocation) => {
     console.log('page is fully loaded');
   });
+
+alert("Is it ok to get your current location?")
 
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(displayLocationInfo);
